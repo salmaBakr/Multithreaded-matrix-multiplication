@@ -1,0 +1,2 @@
+# Multithreaded-matrix-multiplication
+implementation of a multi-threaded matrix multiplication program. The input to the program is two matrixes A(x*y) and B(y*z) that are read from corresponding files. The output is a matrix C(x*z) that is written to an output file. A parallelized version of matrix multiplication can be done using one of these two methods: (1) a thread computes each row in the output C matrix, or (2) a thread computes each element in the output C matrix.
